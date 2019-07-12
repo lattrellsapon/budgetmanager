@@ -6,7 +6,7 @@ export class Navbar extends Component {
     return (
       <div className='flex-container'>
         <div>
-          <h1>Watch my Budget</h1>
+          <h1>Budget Calculator</h1>
         </div>
         <div>
           <ul>

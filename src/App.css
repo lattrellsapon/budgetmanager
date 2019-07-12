@@ -41,3 +41,97 @@ li {
   text-decoration: underline;
   margin: 10px 5px;
 }
+
+.expense-form {
+  border: 1px solid #7ac251;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 8px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+#add-button {
+  color: #fff;
+  font-size: 18px;
+  padding: 4px 10px;
+  margin-top: 10px;
+  border: none;
+  background: #000;
+  transition: 0.2s ease-in;
+}
+
+#submit-button {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+#delete-expense-button {
+  background: red;
+  color: #fff;
+  padding: 5px;
+}
+
+#add-button:hover {
+  background: #7ac251;
+}
+
+.main-content {
+  padding: 8px;
+  text-align: center;
+}
+
+#expense {
+  text-align: justify;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid#000;
+  border-radius: 4px;
+}
+
+.set-budget-form {
+  padding: 8px;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+
+#form-container {
+  /* background: red; */
+  padding: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-header {
+  background: #7ac251;
+  padding: 4px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+
+  .expense-form {
+    max-width: 60%;
+  }
+  .set-budget-form {
+    max-width: 60%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+}
